@@ -2,5 +2,6 @@
 // if the input is a string and false otherwise.
 
 function test(input) {
+  console.log(typeof input);
   return typeof input === "string";
 }
